@@ -22,9 +22,10 @@ import 'dart:ui';
 
 /*<! ------ CONFIG ------!>*/
 
-const app_name = "MyApp";
+const app_name = "MedPRO";
 
-const app_key = "Your app key from WooSignal";
+const app_key =
+    "app_23df07f69c86022fd004a654c08471ebaca406b607cf7e24d192574d6af2";
 
 // Your App key from WooSignal
 // link: https://woosignal.com/dashboard/apps
@@ -36,8 +37,8 @@ const app_privacy_url = "https://yourdomain.com/privacy";
 
 /*<! ------ APP SETTINGS ------!>*/
 
-const app_currency_symbol = "\£";
-const app_currency_iso = "gbp";
+const app_currency_symbol = "\₹";
+const app_currency_iso = "inr";
 const Locale app_locale = Locale('en');
 const List<Locale> app_locales_supported = [
   Locale('en'),
@@ -56,7 +57,10 @@ const List<Locale> app_locales_supported = [
 // Available: "Stripe", "CashOnDelivery", "RazorPay"
 // Add the method to the array below e.g. ["Stripe", "CashOnDelivery"]
 
-const app_payment_methods = ["Stripe"];
+const app_payment_methods = [
+  "RazorPay",
+  "CashOnDelivery",
+];
 
 /*<! ------ STRIPE (OPTIONAL) ------!>*/
 
@@ -79,15 +83,15 @@ const app_stripe_live_mode = false;
 // link: https://woosignal.com/dashboard/plugins
 
 const use_wp_login = false;
-const app_base_url = "https://mysite.com"; // change to your url
+const app_base_url = "http://54.80.54.37"; // change to your url
 const app_forgot_password_url =
-    "https://mysite.com/my-account/lost-password"; // change to your forgot password url
+    "http://54.80.54.37/my-account/lost-password"; // change to your forgot password url
 const app_wp_api_path = "/wp-json"; // By default "/wp-json" should work
 
 /*<! ------ Razor Pay (OPTIONAL) ------!>*/
 // https://razorpay.com/
 
-const app_razor_id = "Your Razor ID from RazorPay";
+const app_razor_id = "rzp_test_nbwdfjY79m02TY";
 
 /*<! ------ DEBUGGER ENABLED ------!>*/
 
